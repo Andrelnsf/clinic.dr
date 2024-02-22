@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+
+body {
+
+    font-family:Cambria,Cochin,Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding:-1px;
+    background: linear-gradient( 45deg, rgb(122, 240, 224), rgb(150, 225, 228), rgb(218, 214, 240), rgb(239, 239, 243) );
+    
+    
+}
+.bg {
+	position:fixed; 
+	left:295%; 
+	top:25%; 
+	bottom:25%; 
+	right:25%;
+	opacity:9;  
+	box-shadow:0 2px 5px #ffff; 
+	border-radius:5px; 
+	text-align:center;
+	background-size: 100% 100%;
+}
+
+header {
+    padding: 30px 0;
+    text-align: center;
+    }
+
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+     text-align: center;
+     background-color: #f5efef;
+}
+
+
+nav a {
+    background-color: rgb(12, 12, 12);
+    padding: 10px;
+    color: hsl(0, 0%, 3%);
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.hero {
+   
+    color: #0c0c0c;
+    text-align: center;
+    padding: 50% 100;
+}
+
+.cta-button {
+  font-family: Georgia, Times, 'Times New Roman', serif, sans-serif;
+  background-color:rgb(235, 247, 243);
+  color: rgb(0, 0, 20);
+  padding: 5px ;
+  text-decoration:underline;
+  font-size: 19px;
+  margin-top:flex;
+  border: 10px 5px 5px rgb(145, 6, 6);
+  border-radius: 8%;
+  padding-right: 10px;
+}
+
+.cta-button:hover{
+
+    background-color: rgb(77, 219, 172);
+}
+.about, .services {
+   
+    color:rgb(5, 5, 5);
+    padding: 50px 0;
+    text-align: center;
+    
+}
+
+.about h2, .services h2 {
+    font-size: 28px;
+}
+
+img {
+border-radius: 20%;
+text-align: center;
+}
+div.bloco {
+background-position: center;
+background-repeat: no-repeat;
+background-size: 106%;
+box-shadow: 5px 8px 4px black;
+}
+div.bloco1{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 5px 8px 4px black;
+
+}
+div.bloco2{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 5px 8px 4px black;
+}
+div.bloco3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 5px 8px 4px black;
+
+}
+div.bloco4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 5px 8px 4px black;
+}
+div.bloco5{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 5px 8px 4px black;
+}
+
+   
+    
+body {
+    background: #D0D8DB;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-tiktok, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #e9e5e5;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #ec0909;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.tiktok {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.tiktok:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
